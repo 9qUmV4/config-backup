@@ -1,0 +1,9 @@
+version: 0.1
+
+services:
+  ssh: 
+    windows: ~\.ssh\**
+    linux: ~\.ssh\**
+
+  vscode:
+    windows: ~\AppData\Roaming\Code\User\settings.json
